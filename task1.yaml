@@ -1,0 +1,34 @@
+X:
+  A1:
+      tiempoDeProcesamiento: 7
+      tareasPadre: {}
+
+  A2:
+      tiempoDeProcesamiento: 8
+      tareasPadre:
+          B2:
+  A3:
+      tiempoDeProcesamiento: 10
+      tareasPadre:
+          A2:
+Y:
+  B2:
+      tiempoDeProcesamiento: 4
+      tareasPadre:
+        A1:
+  B3:
+      tiempoDeProcesamiento: 12
+      tareasPadre:
+        B2:
+Z:
+  C1:
+      tiempoDeProcesamiento: 8
+      tareasPadre: {}
+  C2:
+      tiempoDeProcesamiento: 8
+      tareasPadre:
+        C1:
+  C3:
+      tiempoDeProcesamiento: 7
+      tareasPadre:
+        C2:
